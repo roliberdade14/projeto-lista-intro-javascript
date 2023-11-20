@@ -18,13 +18,21 @@ function imprimeMensagem() {
 
 // EXERCÍCIO 01
 function calculaAreaRetangulo() {
-  // implemente sua lógica aqui
+  const altura = prompt("Altura do Retângulo")
+  const largura = prompt("Largura do Retângulo")  
+
+  const area = altura * largura
+  console.log(area)
 
 }
 
+
 // EXERCÍCIO 02
 function imprimeIdade() {
-  // implemente sua lógica aqui
+  const anoAtual = prompt("ano atual")
+  const anoNascimento = prompt("ano do seu nascimento")
+  idade = anoAtual - anoNascimento
+  console.log(idade)
 
 }
 
